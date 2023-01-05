@@ -1,61 +1,54 @@
-body{
+body {
 	background-color: rgb(230, 230, 230);
 	color: rgb(30, 30, 30);
-	font-family: 'Lora', serif;
-	font-size: 18px;
+	font-family: "Helvetica", sans-serif; 
+	font-size: 16px;
 }
 
-h1, h2, a{
-	font-family: 'Roboto', sans-serif;
-}
-
-h1{
+h1 {
 	color: #0A2540;
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 900;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 }
 
-h2{
+h2 {
 	font-size: 24px;
-	font-weight: lighter;
+	font-weight: bold
 }
 
-h2, a{
+h2 {
 	color: #9b70f2;
 }
 
-a{
+a {
 	text-decoration: none;
 	font-weight: 900;
 	font-size: 16px;
 	transition: color 0.3s ease;
-}
-
-a:hover{
-	color: black;
+	color: white;
 }
 
 .container {
 	width: 700px;
-	margin: 10px auto;
+	margin: 40px auto;
 }
 
 @media(max-width: 768px){
-	.container{
+	.container {
 		width: 500px;
 	}
 }
 
 @media(max-width: 576px){
-	.container{
+	.container {
 		width: 300px;
 	}
 }
 
-.card-white{
+.card-white {
 	background: white;
-	padding: 40px;
+	padding: 20px 40px;
 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 	border-radius: 4px;
 	margin: 20px;
@@ -64,7 +57,8 @@ a:hover{
 
 .img-circle {
 	border-radius: 50%;
-	max-width: 200px;
+	width: 200px;
+	height: 217px;
 }
 
 .btn-purple {
@@ -75,27 +69,36 @@ a:hover{
 	transition: color 0.3 ease;
 }
 
-.btn-purple:hover{
+.btn-purple:hover {
 	background-color: black;
 	color: white;
 }
 
-.list-inline{
+.list-inline {
 	list-style: none;
 	padding-left: 0px;
 }
 
-.list-inline li{
+.list-inline li {
 	display: inline;
 	padding: 10px;
 }
-.list-inline i{
+
+.list-inline i {
 	font-size: 50px;
 	color: rgb(230, 230, 230);
 }
+
 .list-inline i:hover {
 	color: black;
 }
-#intro p{
+
+#intro {
+	padding: 25px;
+}
+
+#intro p {
+	margin-top: 20px;
 	margin-bottom: 40px;
+	line-height: 22px;
 }
